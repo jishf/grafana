@@ -184,10 +184,14 @@ func init() {
 		"AWS/SNS":               {"Application", "Country", "Platform", "SMSType", "TopicName"},
 		"AWS/SQS":               {"QueueName"},
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"AWS/SWF":               {"APIName", "ActivityTypeName", "ActivityTypeVersion", "DecisionName", "Domain", "TaskListName", "WorkflowTypeName", "WorkflowTypeVersion"},
 =======
 		"AWS/SWF":               {"ActivityTypeName", "ActivityTypeVersion", "APIName", "Domain", "WorkflowTypeName", "WorkflowTypeVersion"},
 >>>>>>> 14904 - add swf API metrics and dimension
+=======
+		"AWS/SWF":               {"ActivityTypeName", "ActivityTypeVersion", "APIName", "Domain", "WorkflowTypeName", "WorkflowTypeVersion"},
+>>>>>>> ffde5893cfa51d55f04b56205bf85f9f18cbeeb9
 		"AWS/SageMaker":         {"EndpointName", "Host", "LabelingJobName", "VariantName"},
 		"AWS/States":            {"APIName", "ActivityArn", "LambdaFunctionArn", "StateMachineArn", "StateTransition"},
 		"AWS/StorageGateway":    {"GatewayId", "GatewayName", "VolumeId"},
